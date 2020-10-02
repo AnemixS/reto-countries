@@ -1,0 +1,75 @@
+*,
+#search::placeholder {
+  color: #fff;
+}
+
+nav,
+.card {
+  background-color: #848484;
+}
+nav a {
+  color: #fff;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #fff;
+}
+body,
+.modal-content {
+  background-color: #2b3845;
+}
+#list-countries>div {
+  height: 855h;
+}
+.card {
+  height: 100%;
+}
+.card .flag {
+  height: 200px;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+}
+#search {
+  color: #fff;
+  background: #848484 url("../images/icon-search.svg") no-repeat 5% center /
+    15px;
+  padding-left: 50px;
+  border: none;
+}
+.custom-select select,
+.content-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.content-select select::-ms-expand {
+  display: none;
+}
+.content-select {
+  position: relative;
+}
+.content-select select {
+  background: #848484 url("../images/icon-chevron-down.svg") no-repeat 90%
+    center / 15px;
+  cursor: pointer;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border: none;
+}
+.icon-back {
+  background: #848484 url("../images/arrow-left.svg") no-repeat 15% center;
+  padding-left: 40px;
+}
+.modal .modal-header {
+  border-bottom: none;
+}
